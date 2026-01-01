@@ -1,0 +1,11 @@
+type: postgres
+name: postgres
+version: "15"
+
+env:
+  POSTGRES_DB: remote_team_db
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: 111111
+
+storage:
+  size: 10Gi

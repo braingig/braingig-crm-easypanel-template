@@ -1,0 +1,6 @@
+name: remote-team-system
+description: Remote Team Management System (NestJS + Next.js + Prisma)
+services:
+  - postgres
+  - backend
+  - frontend
