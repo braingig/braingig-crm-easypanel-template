@@ -11,7 +11,7 @@ env:
   NODE_ENV: production
   PORT: 4000
 
-  DATABASE_URL: postgresql://postgres:${POSTGRES_PASSWORD}@postgres:5432/remote_team_db?schema=public
+  DATABASE_URL: postgresql://postgres:111111@postgres:5432/remote_team_db?schema=public
 
   JWT_SECRET: change-this
   JWT_REFRESH_SECRET: change-this-too
@@ -21,7 +21,7 @@ env:
   RATE_LIMIT_TTL: 60
   RATE_LIMIT_MAX: 100
 
-  CORS_ORIGIN: ${FRONTEND_URL}
+  CORS_ORIGIN: "*"
 
 depends_on:
   - postgres
